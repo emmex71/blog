@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+
+body {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    max-width: 400px;
+    margin: auto;
+    padding-top: 50px;
+    line-height: 2em;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRgSASn8PIeStoC_hfFarxkhbC-ZBeFfeU7wTAEM1ndzfD7rsty&usqp=CAU);
+}
+
+button:hover{
+    background-color: blue;
+}
+
+h1 {
+    column-gap: normal;
+}
+
+ li a {
+     display: block;
+     color: burlywood;
+     text-align: center;
+     padding: 14px 10px;
+     text-decoration: none;
+}
+
+.active:hover{
+    text-align: left;
+    margin-left: auto;
+    color: burlywood;
+}
